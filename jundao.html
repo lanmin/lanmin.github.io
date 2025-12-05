@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>业务范围 - 网络技术开发与产品销售</title>
+    <style>
+        /* 全局样式重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 页面基础样式 */
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* 内容容器 */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 主标题样式 */
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* 二级标题样式 */
+        h2 {
+            color: #34495e;
+            font-size: 22px;
+            margin: 30px 0 15px;
+            position: relative;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+
+        /* 业务描述样式 */
+        .business-desc {
+            font-size: 18px;
+            color: #555;
+            margin-top: 15px;
+            line-height: 1.8;
+        }
+
+        /* 产品分类列表 */
+        .product-list {
+            list-style: none;
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        .product-list li {
+            font-size: 17px;
+            color: #666;
+            margin: 8px 0;
+            padding-left: 10px;
+            position: relative;
+        }
+        .product-list li::before {
+            content: "●";
+            color: #3498db;
+            position: absolute;
+            left: -10px;
+        }
+
+        /* 核心优势样式 */
+        .advantage-box {
+            background-color: #f5f9ff;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .advantage-box p {
+            font-size: 17px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        /* 联系信息样式 */
+        .contact-info {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px dashed #ddd;
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 20px auto;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            .business-desc,
+            .product-list li,
+            .advantage-box p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 核心业务标题 -->
+        <h1>网络技术开发</h1>
+        <p class="business-desc">儿童玩具、宠物玩具、家居用品、户外运动产品的研发与销售</p>
+
+        <!-- 产品分类详情 -->
+        <h2>核心产品分类</h2>
+        <ul class="product-list">
+            <li>儿童玩具：益智类、运动类、启蒙类玩具研发与定制</li>
+            <li>宠物玩具：耐咬型、互动型、益智型宠物用品开发</li>
+            <li>家居用品：多功能、环保型、创意家居产品设计销售</li>
+            <li>户外运动产品：便携型、安全型、专业级户外装备研发</li>
+        </ul>
+
+        <!-- 核心业务优势 -->
+        <h2>核心业务优势</h2>
+        <div class="advantage-box">
+            <p>✅ 专业技术团队：拥有10年以上产品研发与网络技术开发经验</p>
+            <p>✅ 全链路服务：覆盖产品设计、技术开发、生产对接、销售运营全流程</p>
+            <p>✅ 定制化方案：可根据客户需求定制专属产品与技术解决方案</p>
+            <p>✅ 品质保障：所有产品均通过严格质检，符合行业安全标准</p>
+        </div>
+
+        <!-- 联系信息 -->
+        <div class="contact-info">
+            <p>📞 业务咨询：欢迎洽谈产品研发、技术合作、批量采购等业务</p>
+            <p>💡 服务理念：以技术驱动产品创新，以品质赢得市场认可</p>
+        </div>
+    </div>
+</body>
+</html>
